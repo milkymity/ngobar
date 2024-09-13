@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toko Roti Skuy</title>
+    <style>
+      .produkitem {
+        width: 250px;
+        margin-bottom: 20px;
+      }
+
+      button {
+        background-color: #ebcc04;
+        color: black;
+        padding: 15px 25px;
+        border: none;
+        border-radius: 10%;
+        cursor: pointer;
+      }
+
+      #produk {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+      }
+    </style>
+  </head>
+  <body style="background-color: #cbc6bb; font-family: Helvetica, sans-serif">
+    <div
+      id="container"
+      title="container"
+      style="width: 960px; padding: 10px; margin: 20px auto"
+    >
+      <div
+        id="header"
+        title="Header"
+        style="
+          background-image: url('header.png');
+          background-size: cover;
+          background-position: center;
+          padding: 10px;
+          margin: 0;
+          height: 150px;
+          text-align: center;
+          margin: 0 auto;
+        "
+      >
+        <h1 style="padding: 25px">Toko Roti Skuy</h1>
+      </div>
+      <div
+        id="main"
+        title="Mainpage"
+        style="background-color: white; padding: 10px"
+      >
+        <h3>Produk</h3>
+
+        <div id="produk" title="Produk">
+          <div title="Item Produk" class="produkitem">
+            <img src="sobek.png" alt="Roti Sobek" style="width: 100%" />
+            <h4 style="text-align: center">Roti Sobek</h4>
+            <p>
+              Roti sobek yang lembut dan mengembang, cocok untuk sarapan atau
+              camilan.
+            </p>
+            <button><b>Beli</b></button>
+          </div>
+
+          <div title="Item Produk" class="produkitem">
+            <img src="tawar.png" alt="Roti Tawar" style="width: 100%" />
+            <h4>Roti Tawar</h4>
+            <p>
+              Roti tawar yang lembut dan bertekstur halus, cocok untuk membuat
+              sandwich atau roti bakar.
+            </p>
+            <button><b>Beli</b></button>
+          </div>
+
+          <div title="Item Produk" class="produkitem">
+            <img src="gandum.png" alt="Roti Gandum" style="width: 100%" />
+            <h4>Roti Gandum</h4>
+            <p>
+              Roti gandum yang kaya serat dan nutrisi, cocok untuk orang yang
+              sedang diet.
+            </p>
+            <button><b>Beli</b></button>
+          </div>
+
+          <div title="Item Produk" class="produkitem">
+            <img src="manis.png" alt="Roti Manis" width="100%" />
+            <h4>Roti Manis</h4>
+            <p>
+              Roti manis yang lembut dan beraroma manis, cocok untuk pencuci
+              mulut atau snack.
+            </p>
+            <button><b>Beli</b></button>
+          </div>
+        </div>
+      </div>
+      <div
+        id="footer"
+        style="
+          background-color: #ebcc04;
+          color: black;
+          padding: 5px;
+          text-align: center;
+        "
+      >
+        <p><b>Copyright © 2024 Toko Roti Skuy</b></p>
+      </div>
+    </div>
+  </body>
+</html>

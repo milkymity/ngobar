@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Pemesanan</title>
+  </head>
+  <body>
+    <a href="index.html">Kembali ke Halaman Utama</a>
+    <br />
+    <a href="produk.html">List Produk</a>
+
+    <h1><b>Form Pemesanan Produk</b></h1>
+
+    <form action="" method="get">
+      <table>
+        <tr>
+          <td><label for="nama">Nama</label></td>
+          <td>
+            <input
+              type="text"
+              name="nama"
+              id="nama"
+              placeholder="Masukkan nama Anda"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="email">Alamat Email</label></td>
+          <td>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Masukkan alamat email Anda"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="jenis_produk">Jenis Produk</label></td>
+          <td>
+            <select name="jenis_produk" id="jenis_produk" required>
+              <option>Pilih Jenis Produk</option>
+              <option value="produk1">Produk 1</option>
+              <option value="produk2">Produk 2</option>
+              <option value="produk3">Produk 3</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="jumlah">Jumlah</label></td>
+          <td>
+            <input
+              type="number"
+              name="jumlah"
+              id="jumlah"
+              placeholder="Masukkan jumlah produk"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="pengiriman">Pengiriman Ekspres</label></td>
+          <td><input type="checkbox" name="pengiriman" id="pengiriman" /></td>
+        </tr>
+        <tr>
+          <td><label for="komentar">Komentar</label></td>
+          <td>
+            <textarea
+              name="komentar"
+              id="komentar"
+              placeholder="Masukkan komentar atau instruksi"
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button type="submit">Pesan</button>
+            <button type="reset">Batal</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

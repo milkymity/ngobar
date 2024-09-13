@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="" method="">
+      <label for="nama">Nama</label>
+      <input
+        type="text"
+        name="nama"
+        id="nama"
+        placeholder="Masukkan Nama Anda"
+        autofocus
+        required
+      />
+      <br /><br />
+
+      <label for="nama1">Nama Terisi</label>
+      <input
+        type="text"
+        name="nama1"
+        id="nama1"
+        placeholder="Masukkan Nama Anda"
+        value="Udin"
+        required
+      />
+      <br /><br />
+
+      <label for="password">Password</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Masukkan Password Anda"
+        value="Password"
+      />
+    </form>
+    <br /><br />
+
+    <label for="usia">Usia</label>
+    <input
+      type="number"
+      name="usia"
+      id="usia"
+      placeholder="Masukkan Usia Anda"
+      min="15"
+      max="60"
+      size="30"
+      required
+    />
+    <br /><br />
+
+    <label for="usia1">Usia Terisi</label>
+    <input
+      type="number"
+      name="usia1"
+      id="usia1"
+      placeholder="Masukkan Usia Anda"
+      min="15"
+      max="60"
+      value="30"
+      size="30"
+    />
+    <br /><br />
+
+    <label for="email">Email</label>
+    <input
+      type="email"
+      name="email"
+      id="email"
+      placeholder="Masukkan Email Anda"
+      required
+    />
+    <br /><br />
+
+    <label for="email">Email Terisi</label>
+    <input
+      type="email"
+      name="email"
+      id="email"
+      placeholder="Masukkan Email Anda"
+      value="ahm2@gmail.com"
+      required
+    />
+  </body>
+  <br /><br />
+
+  <input type="hidden" name="id_user" id="123" />
+
+  <label for="tanggal_lahir">Tanggal Lahir</label>
+  <input
+    type="date"
+    name="tanggal_lahir"
+    id="tanggal_lahir"
+    min="2000-01-01"
+    max="2010-01-01"
+  />
+  <br /><br />
+
+  <label for="tanggal_lahir">Tanggal Lahir</label>
+  <input
+    type="date"
+    name="tanggal_lahir"
+    id="tanggal_lahir"
+    min="2000-01-01"
+    max="2010-01-01"
+    value="2000-01-01"
+  />
+  <br /><br />
+
+  <label for="waktu">Waktu</label>
+  <input type="time" name="waktu" id="waktu" min="08:00" max="10:00" required />
+  <br /><br />
+
+  <label for="waktu_terisi">Waktu Terisi</label>
+  <input
+    type="time"
+    name="waktu_terisi"
+    id="waktu_terisi"
+    min="08:00"
+    max="10:00"
+    value="09:00"
+  />
+  <br /><br />
+
+  <label for="lampiran">Lampiran</label>
+  <input
+    type="file"
+    name="lampiran"
+    id="lampiran"
+    multiple
+    accept="image/*"
+    required
+  />
+  <br /><br />
+
+  <input type="checkbox" name="hobi" value="membaca" checked />Membaca
+  <input type="checkbox" name="hobi" value="menulis" />Menulis
+  <input type="checkbox" name="hobi" value="memasak" />Memasak
+  <br /><br />
+
+  <input type="radio" name="hobi" value="membaca" checked />Membaca
+  <input type="radio" name="hobi" value="menulis" />Menulis
+  <input type="radio" name="hobi" value="memasak" />Memasak
+  <br /><br />
+
+  <label for="negara">Negara</label>
+  <select name="negara" id="negara">
+    <option value="indonesia" selected>Indonesia</option>
+    <option value="malaysia">Malaysia</option>
+    <option value="singapura">Singapura</option>
+    <option value="jepang">Jepang</option>
+    <option value="korea">Korea</option>
+  </select>
+  <br /><br />
+
+  <label for="komentar">Komentar</label>
+  <textarea
+    name="komentar"
+    id="komentar"
+    placeholder="Isi Komentar Anda"
+    rows="5"
+    cols="38"
+    required
+  ></textarea>
+  <br /><br />
+
+  <button type="submit">Kirim</button>
+  <button type="reset" disabled>Reset</button>
+</html>
